@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>斯宾币(SPN) ICO 计划</title>
+  <style>
+    body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, dialog, details, figcaption, figure, footer, header, hgroup, nav, section, summary, time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+      content: "";
+      content: none;
+    }
+
+    a img {
+      border: 0;
+    }
+
+    :focus {
+      outline: 0;
+    }
+
+    ins {
+      background-color: #ffff99;
+      color: black;
+      text-decoration: none;
+    }
+
+    mark {
+      background-color: #ffff99;
+      color: black;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    del {
+      text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+      border-bottom: 1px dotted;
+      cursor: help;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    caption, th, td {
+      text-align: left;
+      font-weight: normal;
+      float: none !important;
+    }
+
+    table, th, td {
+      vertical-align: middle;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, dialog, main {
+      display: block;
+    }
+
+    audio, canvas, video, progress {
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: baseline;
+    }
+
+    audio:not([controls]) {
+      display: none;
+      height: 0;
+    }
+
+    [hidden], template {
+      display: none;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    html {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      overflow-y: scroll;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      *font-size: small;
+      font-size: 62.5%;
+      margin: 0;
+      padding: 0;
+      background: white;
+      -webkit-font-smoothing: antialiased;
+    }
+    body:before {
+      content: "";
+      float: left;
+      height: 100%;
+      margin-top: -32767px;
+      width: 0;
+    }
+
+    body, button, input, select, textarea {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #222222;
+    }
+
+    h1 {
+      font-size: 2.4em;
+      color: #232323;
+      line-height: 1;
+    }
+
+    h2 p {
+      position: relative;
+      font-size: 5.8em;
+      font-weight: 700;
+      color: #3c3d41;
+      line-height: 1.2em;
+    }
+
+    h3 {
+      font-size: 2.1em;
+    }
+
+    h4 {
+      font-size: 1.9em;
+    }
+
+    h5 {
+      font-size: 1.7em;
+    }
+
+    h6 {
+      font-size: 1.5em;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+      text-rendering: optimizelegibility;
+    }
+
+    h3, h4, h5, h6 {
+      font-weight: 400;
+      color: #666666;
+      text-rendering: optimizelegibility;
+    }
+
+    h1 img,
+    h2 img,
+    h3 img,
+    h4 img,
+    h5 img,
+    h6 img {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    nav ul, nav ol {
+      margin: 0;
+      list-style: none;
+      list-style-image: none;
+    }
+
+    img {
+      display: block;
+      height: auto;
+      vertical-align: middle;
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+    }
+
+    em, dfn {
+      font-style: italic;
+    }
+
+    strong, th, b {
+      font-weight: bold;
+    }
+
+    small {
+      font-size: 80%;
+    }
+
+    td {
+      vertical-align: top;
+    }
+
+    sup, sub {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+
+    sup {
+      top: -0.5em;
+    }
+
+    sub {
+      bottom: -0.25em;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    ol li, ul li {
+      list-style: none;
+    }
+
+    a {
+      display: block;
+      background: transparent;
+      text-decoration: none;
+    }
+    a:active {
+      text-decoration: none;
+      outline: 0;
+    }
+    a:hover {
+      text-decoration: none;
+      outline: 0;
+    }
+
+    ::-moz-selection, ::selection {
+      background: #ff5e99;
+      color: white;
+      text-shadow: none;
+    }
+
+    p {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 2em;
+      font-size: 1.4em;
+      color: rgba(0, 0, 0, 0.54);
+      font-weight: 400;
+    }
+
+    fieldset, th, td {
+      line-height: 1.7em;
+      font-size: 1.4em;
+      color: rgba(0, 0, 0, 0.54);
+      font-weight: 400;
+    }
+
+    li {
+      font-size: 1em;
+      color: rgba(0, 0, 0, 0.54);
+      font-weight: 400;
+    }
+    li a {
+      font-size: 1.4em;
+      color: rgba(0, 0, 0, 0.54);
+      font-weight: 400;
+    }
+
+    dt, dd {
+      line-height: 1.7em;
+      font-size: 1.4em;
+      color: rgba(0, 0, 0, 0.54);
+      font-weight: 400;
+    }
+
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a,
+    li a,
+    li p {
+      font-size: 1em;
+      line-height: 1em;
+    }
+
+    p a,
+    p span,
+    p label,
+    p input {
+      font-size: 1em;
+      line-height: 1em;
+    }
+
+    ul li, ol li {
+      font-size: 1em;
+      line-height: 1em;
+    }
+
+    pre {
+      display: block;
+      white-space: pre;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      padding: 15px;
+      overflow: auto;
+    }
+
+    code {
+      color: #0b8c8f;
+      padding: 2px 4px;
+      background-color: #f7f7f9;
+      border: 1px solid #e1e1e8;
+    }
+
+    pre, code, tt, kbd, samp {
+      font-family: monospace, monospace;
+      _font-family: "courier new", monospace;
+      font-size: 1em;
+      line-height: 1.5em;
+      border-radius: 3px;
+    }
+
+    address {
+      font-style: italic;
+      display: block;
+    }
+
+    blockquote {
+      margin: 0 0 20px;
+      padding: 0 0 0 15px;
+      border-left: 5px solid #eeeeee;
+      color: #666666;
+      font-style: italic;
+    }
+
+    q:before, q:after {
+      content: "";
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    td, th {
+      padding: 0;
+    }
+
+    input::-webkit-input-placeholder, input::-moz-placeholder, input:-ms-input-placeholder {
+      color: #b5b5b5;
+    }
+
+    form {
+      margin: 0;
+    }
+
+    fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    legend {
+      display: block;
+      font-weight: 700;
+      font-size: 1.4em;
+      border: 0;
+      *margin-left: -7px;
+      padding: 0;
+      white-space: normal;
+    }
+
+    optgroup {
+      font-weight: bold;
+    }
+
+    select, input, textarea, button {
+      font-size: 100%;
+      margin: 0;
+      vertical-align: middle;
+      *vertical-align: middle;
+      display: block;
+      min-height: 20px;
+    }
+
+    button, select {
+      text-transform: none;
+    }
+
+    select {
+      border: 1px solid white;
+    }
+
+    textarea {
+      overflow: auto;
+      vertical-align: top;
+      resize: none;
+    }
+
+    input, button {
+      width: auto;
+      line-height: normal;
+      *overflow: visible;
+    }
+
+    table {
+      *overflow: auto;
+    }
+    table input {
+      *overflow: auto;
+    }
+
+    button {
+      overflow: visible;
+      background: transparent;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      padding: 0;
+    }
+
+    button::-moz-focus-inner, input::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
+
+    button,
+    html input[type="button"] {
+      cursor: pointer;
+      -webkit-appearance: button;
+      *overflow: visible;
+    }
+
+    .container {
+      max-width: 1170px;
+      margin: 0 auto;
+      _text-align: left;
+      *zoom: 1;
+    }
+    .container:before, .container:after {
+      display: table;
+      content: "";
+    }
+    .container:after {
+      clear: both;
+    }
+
+    /* Table style starts here */
+    .table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+    .table th,
+    .table td {
+      padding: 0.75rem;
+      vertical-align: top;
+      border-top: 1px solid #eceeef;
+    }
+    .table th {
+      font-weight: 700;
+    }
+    .table thead th {
+      vertical-align: bottom;
+      border-bottom: 2px solid #eceeef;
+    }
+    .table tbody + tbody {
+      border-top: 2px solid #eceeef;
+    }
+    .table .table {
+      background-color: #fff;
+    }
+    .table tbody th {
+      text-align: right;
+    }
+
+    .table-sm th,
+    .table-sm td {
+      padding: 0.3rem;
+    }
+
+    .table-bordered {
+      border: 1px solid #eceeef;
+    }
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid #eceeef;
+    }
+    .table-bordered thead th,
+    .table-bordered thead td {
+      border-bottom-width: 2px;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .table-hover tbody tr:hover {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+
+    .thead-inverse th {
+      color: #fff;
+      background-color: #373a3c;
+    }
+
+    .thead-default th {
+      color: #55595c;
+      background-color: #eceeef;
+    }
+
+    .table-inverse {
+      color: #eceeef;
+      background-color: #373a3c;
+    }
+    .table-inverse th,
+    .table-inverse td,
+    .table-inverse thead th {
+      border-color: #55595c;
+    }
+    .table-inverse.table-bordered {
+      border: 0;
+    }
+
+    .table-responsive {
+      display: block;
+      width: 100%;
+      min-height: 0.01%;
+      overflow-x: auto;
+    }
+
+    .table-reflow thead {
+      float: left;
+    }
+    .table-reflow tbody {
+      display: block;
+      white-space: nowrap;
+    }
+    .table-reflow th,
+    .table-reflow td {
+      border-top: 1px solid #eceeef;
+      border-left: 1px solid #eceeef;
+    }
+    .table-reflow th:last-child,
+    .table-reflow td:last-child {
+      border-right: 1px solid #eceeef;
+    }
+    .table-reflow thead:last-child tr:last-child th,
+    .table-reflow thead:last-child tr:last-child td,
+    .table-reflow tbody:last-child tr:last-child th,
+    .table-reflow tbody:last-child tr:last-child td,
+    .table-reflow tfoot:last-child tr:last-child th,
+    .table-reflow tfoot:last-child tr:last-child td {
+      border-bottom: 1px solid #eceeef;
+    }
+    .table-reflow tr {
+      float: left;
+    }
+    .table-reflow tr th,
+    .table-reflow tr td {
+      display: block !important;
+      border: 1px solid #eceeef;
+    }
+
+    /* page style starts here */
+    nav {
+      width: 100%;
+      height: 50px;
+
+      background: white;
+      -webkit-box-shadow: 0 8px 6px -9px #999;
+      -moz-box-shadow: 0 8px 6px -9px #999;
+      box-shadow: 0 8px 6px -9px #999;
+    }
+
+    h1 {
+      padding-left: 25px;
+      padding-right: 25px;
+
+      font-size: 18px;
+    }
+
+    h1 a {
+      font-size: 1em;
+      color: #333;
+      line-height: 50px;
+    }
+
+    h1 a:hover {
+      color: #999;
+    }
+
+    section.container {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    section.container > div {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    h2 {
+      margin-bottom: 28px;
+
+      font-size: 17px;
+      color: #000;
+    }
+
+    h3 {
+      margin-top: 30px;
+      margin-bottom: 12px;
+      font-weight: 600;
+
+      font-size: 15px;
+      color: rgb(75, 75, 75);
+    }
+
+    p {
+      max-width: 760px;
+      margin-bottom: 14px;
+
+      font-size: 14px;
+      line-height: 18px;
+      color: rgb(102, 102, 102);
+    }
+
+    .highlight {
+      color: #F44336;
+    }
+
+    .exchange-suggestion {
+      margin-left: 12px;
+
+      color: #666;
+      font-weight: 700;
+    }
+
+    .exchange a {
+      display: inline;
+
+      color: #4CAF50;
+    }
+
+    .exchange a:hover {
+      color: #2E7D32;
+    }
+
+    .table {
+      margin: 30px 0;
+    }
+
+    .plan .table th:first-child {
+      width: 18%;
+    }
+
+    .note {
+      max-width: 1170px;
+      margin: 0 auto;
+
+      text-align: right;
+    }
+
+    .note em {
+      padding-right: 25px;
+
+      font-size: 12px;
+    }
+
+    .exchange-title, .exchange-time {
+      width: 100%;
+      display: inline-block;
+    }
+
+    .exchange-title {
+      margin: 12px 0 8px;
+
+      font-size: 15px;
+      font-weight: 600;
+      color: #4CAF50;
+    }
+
+    .exchange-time {
+      margin-bottom: 12px;
+
+      font-size: 14px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <h1 class="container">
+    <a href="http://spincoin.network/zh-cn/">斯宾币</a>
+  </h1>
+</nav>
+
+<section class="container exchange">
+  <div>
+    <h2>斯宾币(SPN) ICO 公开兑换</h2>
+
+    <h3>公开兑换指定智能合约地址</h3>
+    <p><img src="http://spincoin.network/assets/images/marketing/spincoin-eth.png" alt="斯宾币QR码"></p>
+    <p>
+      <strong class="highlight">0xa40a3E1F39a3889FDAEd14a86105b93B51908d8a</strong>
+      <span class="exchange-suggestion">(建议把 gas 设置成 150000)</span>
+    </p>
+
+
+    <h3>公开兑换说明（中文页面时间均为北京时间）</h3>
+    <p>
+      <span class="exchange-title">大客户兑换计划</span>
+      <span class="exchange-time">7月10日 10:00 - 7月17日 10:00</span>
+      最低兑换门槛为<strong>5 ETH</strong>起，<strong>1 ETH = 1250 SPN</strong>，共<strong>400万 SPN</strong>折合<strong>3200 ETH</strong>，募完即止。
+    </p>
+    <p>
+      <span class="exchange-title">普通客户兑换计划</span>
+      <span class="exchange-time">7月17日 10:00 - 8月17日 10:00</span>
+      最低兑换门槛为<strong>0.001ETH</strong>，<strong>1 ETH = 1000 SPN</strong>，共<strong>1000万 SPN</strong>折合<strong>1万 ETH</strong>，募完即止。
+    </p>
+
+    <h3>兑换方式</h3>
+    <p>兑换者可通过自己的以太币公链钱包，如MyEtherWallet、Mist、imToken、Parity、Metamask等，直接转入以太币到以上智能合约地址。</p>
+
+    <h3>重点提示</h3>
+    <p>需兑换者从自己的钱包转入，切勿从代币交易所的钱包提取至公开兑换地址，否则转入会失败！</p>
+  </div>
+</section>
+
+<section class="container plan">
+  <div>
+    <h2>斯宾币(SPN) ICO 计划</h2>
+
+    <h3>兑换说明</h3>
+
+    <p>
+      斯宾币总量为4000万个且永不增发，其中40%即1600万个斯宾币在智能合约中冻结730天，具体代码将进行公示，代码即法律，该代码一经上线，再也无法修改与篡改，确保无任何人可更改以上条款。
+    </p>
+
+    <p>
+      本次ICO，官网普通兑换额度为1000万斯宾币，按1ETH=1000斯宾币比例兑换，最小参与单位0.001ETH。
+      官网另有400万斯宾币用于大客户激励计划，按1ETH=1250斯宾币兑换，最小参与门槛为5 ETH，代码中已写入最终额度，售完自动停止。
+    </p>
+    <p>
+      其余1000万斯宾币将用于各大众筹平台渠道募集、基石投资人投资（需对项目有技术或商业应用贡献）、现场路演活动奖励等。
+    </p>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+      <tr>
+        <th>级别</th>
+        <th>兑换额度</th>
+        <th>兑换比例</th>
+        <th>最小参与单位</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">普通</th>
+        <td>1000万 斯宾币 (SPN)</td>
+        <td>1 ETH = 1000 斯宾币 (SPN)</td>
+        <td>0.001 ETH</td>
+      </tr>
+      <tr>
+        <th scope="row">大客户</th>
+        <td>400万 斯宾币 (SPN)</td>
+        <td>1 ETH = 1250 斯宾币 (SPN)</td>
+        <td>5 ETH</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <h3>其他兑换及分配说明</h3>
+    <table class="table table-striped table-bordered">
+      <thead>
+      <tr>
+        <th>币种</th>
+        <th>分配说明</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">以太币</th>
+        <td>50%将用于支持本项目的商业运营、应用场景落地开发及推广、以及法律、财务、审计咨询等；
+          40%将用于支持斯宾链、斯宾币、代币钱包、钱包SDK等系统的开发，以及服务器、软硬件、网站等的购买与建设；
+          10%用于行业顾问专家的咨询费用以及本项目的推广营销费用</td>
+      </tr>
+      <tr>
+        <th scope="row">斯宾币</th>
+        <td>ICO参与者获得50%，
+          商业运营及合作伙伴20%，
+          技术开发团队20%，
+          营销及用户奖励10%。
+          其中，商业运营、合作伙伴、技术开发团队所持有的代币（共约40%）将锁定冻结2年，冻结数据将记录在区块链上，公开透明。</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<p class="note"><em>初创项目风险大，参与兑换需谨慎！</em></p>
+</body>
+</html>
